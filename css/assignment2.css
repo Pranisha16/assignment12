@@ -1,0 +1,67 @@
+.header{
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu{
+    background-color: lawngreen;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+section{
+    height: 200px;
+    width: 100%;
+}
+
+.content1{
+    background-color: gray;
+    height: 200px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.main{
+    background-color:sandybrown;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    overflow: auto;
+}
+
+.content2{
+    background-color: gray;
+    height: 200px;
+    width: 20%;
+    float: right;
+    text-align: center;
+    overflow:auto;
+
+}
+
+.footer{
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+
+
+*{
+    margin: 5px;
+    padding: 0%;
+}
+
+.clearfix:after{
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
