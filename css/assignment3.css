@@ -28,15 +28,16 @@
     line-height: 170px;
     text-align: center;
     overflow: auto;
-    float: none;
+    float: left;
 }
 
 .side{
     background-color: lime;
-    width: 19.09%;
+    width: 19.4%;
     line-height: 200px;
     text-align: center;
-    
+    position:relative;
+    display:block;
     float: right;
     
 }
