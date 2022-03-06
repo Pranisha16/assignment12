@@ -1,4 +1,8 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+}
 
 .header{
     background-color: cyan;
@@ -21,7 +25,7 @@
 .section{
     background-color:seagreen;
     line-height: 400px;
-    width: 70%;
+    width: 75%;
     text-align: center;
     float: right;
     margin-bottom: 10px;
@@ -36,9 +40,6 @@
     clear: both;
 }
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 
 
